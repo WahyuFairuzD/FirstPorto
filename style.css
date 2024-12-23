@@ -1,0 +1,21 @@
+body {
+    background-color: #f4f5f5d3;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-image: url('https://via.placeholder.com/1920x300');
+    background-size: cover;
+    background-position: center;
+    color: rgb(13, 13, 13);
+    text-shadow: 2px 2px 5px rgba(229, 224, 224, 0.926);
+}
+.card {
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+footer {
+    background-color: #343a40;
+    color: #adb5bd;
+}
